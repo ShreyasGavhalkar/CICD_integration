@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar.tsx";
+import Card from "./components/Card/Card.tsx";
+import Footer from "./components/Footer/Footer.tsx";
+import Data from "./data/data.ts";
 
-function App() {
+const App: React.FC = () => {
+  const cards = Data.map(item => {
+    return (
+      <Card 
+        key={item.id}
+        {...item}
+      />
+    )
+  })
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <main>
+        {cards}
+      </main>
+      <Footer />
     </div>
   );
 }
