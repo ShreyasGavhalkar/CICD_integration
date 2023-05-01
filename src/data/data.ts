@@ -2,14 +2,14 @@
 const Data = [
   {
     id: 1,
-    title: "Parthenon",
-    location: "GREECE",
-    googleMapsUrl: "https://goo.gl/maps/a2UaeW8LQQ6RvxD3A",
+    title: "Shaniwar Wada",
+    location: "PUNE",
+    googleMapsUrl: "https://goo.gl/maps/9f4BBFFHUGnhVHmHA",
     natural: false,
-    dateBuilt: "438 BC",
+    dateBuilt: "1736 AD",
     description:
-      "The Parthenon is a former temple on the Athenian Acropolis, regarded as an enduring symbol of Ancient Greece, democracy and Western civilization, and one of the world's greatest cultural monuments.",
-    imageUrl: "https://source.unsplash.com/ilQmlVIMN4c",
+      "Shaniwar wada is a monument situated in the city of Pune, Maharashtra, India",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/14/Shaniwaarwada_Pune.jpg",
   },
   {
     id: 2,
