@@ -3,7 +3,7 @@ const Data = [
   {
     id: 1,
     title: "Shaniwar Wada",
-    location: "PUNE",
+    location: "Mumbai",
     googleMapsUrl: "https://goo.gl/maps/9f4BBFFHUGnhVHmHA",
     natural: false,
     dateBuilt: "1736 AD",
